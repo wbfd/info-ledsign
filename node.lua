@@ -1,4 +1,4 @@
-gl.setup(1080, 1920)
+gl.setup(1920, 1080)
 
 local json = require "json"
 local deque = require "deque"
