@@ -36,7 +36,7 @@ local function Sign()
         for i = 1, ROWS do
             local line = lines[i]
             local y = 15 + (i-1)*104
-            font:write(-2, y, line, 106, 2, 2, 2, 2)
+            font:write(-2, y, line, 106, 255, 0, 0, 1)
         end
     end
 
