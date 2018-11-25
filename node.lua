@@ -33,6 +33,7 @@ local function Sign()
 
     local function draw()
         gl.scale(1.007, 1.3)
+	  gl.rotate(90,0,0,0)
         for i = 1, ROWS do
             local line = lines[i]
             local y = 15 + (i-1)*104
