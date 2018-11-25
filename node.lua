@@ -33,11 +33,10 @@ local function Sign()
 
     local function draw()
         gl.scale(1.007, 1.3)
-	  gl.rotate(90,0,0,0)
         for i = 1, ROWS do
             local line = lines[i]
             local y = 15 + (i-1)*104
-            font:write(-2, y, line, 106, 1, 0.75, 0, 1)
+            font:write(-2, y, line, 106, 1, 1, 1, 1)
         end
     end
 
@@ -119,6 +118,7 @@ end
 
 local sign = Sign()
 local player = Player(sign)
+local st = util.screen_transform(90)
 
 node.alias "sign"
 
@@ -129,6 +129,7 @@ util.data_mapper{
 }
 
 function node.render()
+    st()
     player.tick()
     sign.draw()
 end
