@@ -32,11 +32,11 @@ local function Sign()
     local lines
 
     local function draw()
-        gl.scale(0.56, 0.93)
+        gl.scale(0.565, 0.93)
         for i = 1, ROWS do
             local line = lines[i]
             local y = 15 + (i-1)*104
-            font:write(-2, y, line, 106, 1, 1, 1, 1)
+            font:write(-2, y, line, 106, 1, 1, 0.75, 1)
         end
     end
 
