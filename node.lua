@@ -3,7 +3,7 @@ gl.setup(1080, 1920)
 local json = require "json"
 local deque = require "deque"
 
-local ROWS = 10
+local ROWS = 20
 local COLS = 18
 
 local content
