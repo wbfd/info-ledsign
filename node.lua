@@ -3,7 +3,7 @@ gl.setup(1080, 1920)
 local json = require "json"
 local deque = require "deque"
 
-local ROWS = 8
+local ROWS = 18
 local COLS = 18
 
 local content
@@ -36,7 +36,7 @@ local function Sign()
         for i = 1, ROWS do
             local line = lines[i]
             local y = 15 + (i-1)*104
-            font:write(-2, y, line, 106, 1, 1, 1, 1)
+            font:write(-2, y, line, 106, 2, 2, 2, 2)
         end
     end
 
