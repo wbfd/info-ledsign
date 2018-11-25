@@ -1,7 +1,7 @@
 [{
     "duration": 4,
     "lines": [
-        "X                X"
+        "X                X",
         "X                X",
         "                  ",
         "    THIS IS AN    ",
@@ -9,14 +9,14 @@
         "    SIGN TEST.    ",
         "                  ",
         "                  ",
-        "X                X"
+        "X                X",
         "X                X"
 
     ]
 }, {
     "duration": 5,
     "lines": [
-        "X                X"
+        "X                X",
         "                  ",
         "                  ",
         "    CALL DATA     ",
@@ -24,7 +24,7 @@
         "                  ",
         "                  ",
         "                  ",
-        "                  "
+        "                  ",
         "X                X"
     ]
 }]
