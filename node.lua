@@ -32,7 +32,7 @@ local function Sign()
     local lines
 
     local function draw()
-        gl.scale(1, 0.9)
+        gl.scale(0.8, 0.9)
         for i = 1, ROWS do
             local line = lines[i]
             local y = 15 + (i-1)*104
